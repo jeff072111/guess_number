@@ -1,5 +1,9 @@
 import random
-r = random.randint(1, 100)
+start =input('請自行設定數字最小值: ')
+end = input('請自行設定數字最大值: ')
+start = int(start)
+end = int(end)
+r = random.randint(start, end)
 count = 0
 while True:
 	count += 1  #相同於count = count + 1
