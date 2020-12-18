@@ -2,7 +2,7 @@ import random
 r = random.randint(1, 100)
 count = 0
 while True:
-	count += + 1        # = count + 1
+	count += 1  #相同於count = count + 1
 	num = input('請猜一個數字: ')
 	num = int(num)
 	if num == r:
